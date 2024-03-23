@@ -56,7 +56,7 @@ function App() {
                 onClick={() => handleUserClick(index)}
                 className="row align-items-center justify-content-between border list-shadow p-4"
               >
-                <div className="col-md-4">
+                <div className="col-md-4 mb-3">
                   <img
                     width="50"
                     src={user.avatar}
