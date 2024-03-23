@@ -60,8 +60,8 @@ function App() {
                   <img
                     width="50"
                     src={user.avatar}
-                    alt={user.name}
-                    className="rounded-circle"
+                    alt={user.profile.firstName}
+                    className="rounded-circle mb-3"
                   />
                   <span className="ms-3">
                     {user.profile.firstName} {user.profile.lastName}
@@ -75,7 +75,7 @@ function App() {
                         <div className="d-flex align-items-center">
                           <img
                             src={user.avatar}
-                            alt={user.name}
+                            alt={user.profile.firstName}
                             className="rounded-1"
                           />
                         </div>
